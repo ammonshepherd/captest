@@ -6,7 +6,7 @@ $server = "vagrant, captest, ip: 192.168.33.10";
 ?>
 <html>
     <style>
-        body {#58a389;}
+        body {background-color: #ffa339;}
         h1 {
             text-align: center;
             margin-top: 10%;
@@ -20,5 +20,6 @@ $server = "vagrant, captest, ip: 192.168.33.10";
 
 <h1><?php echo $message; ?></h1>
 
+<p><?php echo $server; ?></p>
 </body>
 </html>
