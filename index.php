@@ -1,12 +1,12 @@
 <?php 
-$title = "Captest Site";
+$title = "All NEW Captest Site";
 $message = "Testing site for capistrano deployments"; 
 $server = "vagrant, captest, ip: 192.168.33.10"; 
 
 ?>
 <html>
     <style>
-        body {background-color: #ffa339;}
+        body {background-color: #faa32d;}
         h1 {
             text-align: center;
             margin-top: 10%;
