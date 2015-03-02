@@ -1,7 +1,7 @@
 <?php 
-$title = "All NEW Captest Site";
+$title = "Testing Capistrano 3";
 $message = "Testing site for capistrano deployments"; 
-$server = "vagrant, captest, ip: 192.168.33.10"; 
+$server = "vagrant, captest, ip: ".$_SERVER['SERVER_ADDR']; 
 
 ?>
 <html>
