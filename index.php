@@ -11,7 +11,7 @@ $server = "vagrant, captest, ip: ".$_SERVER['SERVER_ADDR'];
             text-align: center;
             margin-top: 10%;
             color: white;
-            font-size: 10em;
+            font-size: 6em;
             border: double white;
             padding: 0.4em;
         }
